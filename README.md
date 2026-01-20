@@ -46,4 +46,5 @@ Install the necessary libraries:
 If download doesn't work, create a virtual environment. https://www.raspberrypi.com/news/using-python-with-virtual-environments-the-magpi-148/
 ### 4
 Get API keys from Pico Voice, Groq and Elevenlabs. Load keys when running the program.
-### 5 Run fishBot.py
+### 5 
+Run fishBot.py
