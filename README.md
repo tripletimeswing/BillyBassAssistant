@@ -41,10 +41,14 @@ Get Raspberry Pi OS. https://www.raspberrypi.com/software/
 Download the files ```git clone https://github.com/tripletimeswing/BillyBassAssistant```
 ### 3 
 Install the necessary libraries:
-```pip install pvporcupine PyAudio SpeechRecognition groq elevenlabs ffmpeg-python gpiozero numpy```
+```pip install pvporcupine PyAudio SpeechRecognition groq elevenlabs ffmpeg-python gpiozero numpy python-dotenv```
 
-If download doesn't work, create a virtual environment. https://www.raspberrypi.com/news/using-python-with-virtual-environments-the-magpi-148/
+If download doesn't work, download in a virtual environment. https://www.raspberrypi.com/news/using-python-with-virtual-environments-the-magpi-148/
 ### 4
+Create the audio files. ```touch voice.mp3 voice.wav```
+### 5
 Get API keys from Pico Voice, Groq and Elevenlabs. Load keys when running the program.
-### 5 
+### 6
+Add key to dotenv file. https://pypi.org/project/python-dotenv/
+### 7
 Run fishBot.py
