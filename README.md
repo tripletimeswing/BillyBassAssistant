@@ -19,3 +19,19 @@ https://github.com/user-attachments/assets/cf363afb-d33a-4abf-9209-668e9805cda8
 
 # Schematics
 <img width="733" height="657" alt="BillyBassSchema" src="https://github.com/user-attachments/assets/90a88929-1741-4af9-8a34-960897c9feb1" />
+
+# Hardware Setup
+### 1
+Connect the transistor and microphone module on a breadboard.
+![1000005369](https://github.com/user-attachments/assets/214a0c3c-7413-4cf8-b36a-ac0ec06b46ca)
+
+### 2
+Open back of Billy Bass toy and cut and strip motor wires, test with a battery to see which wire for which motor.
+
+### 3
+Connect motor to transistor. If body motor is still working, use a dual H-bridge like l293d to use both motors.
+
+### 4
+Connect external speaker to RPi through aux or alternatively use speaker from toy by soldering it to aux adapter.
+
+#Raspberry Pi Setup
