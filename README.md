@@ -29,11 +29,21 @@ Connect the transistor and microphone module on a breadboard.
 Open back of Billy Bass toy and cut and strip motor wires, test with a battery to see which wire for which motor.
 
 ### 3
-Connect motor to transistor. If body motor is still working, use a dual H-bridge like l293d to use both motors.
+Connect motor to transistor. If body motor is still working, use a dual H-bridge like l293d to use both motors. (Code is not made for 2 motors)
 
 ### 4
 Connect external speaker to RPi through aux or alternatively use speaker from toy by soldering it to aux adapter.
 
 # Raspberry Pi Setup
-1. Get Raspberry Pi OS. https://www.raspberrypi.com/software/
-2. 
+### 1 
+Get Raspberry Pi OS. https://www.raspberrypi.com/software/
+### 2
+Download the files ```git clone https://github.com/tripletimeswing/BillyBassAssistant```
+### 3 
+Install the necessary libraries:
+```pip install pvporcupine PyAudio SpeechRecognition groq elevenlabs ffmpeg-python gpiozero numpy```
+
+If download doesn't work, create a virtual environment. https://www.raspberrypi.com/news/using-python-with-virtual-environments-the-magpi-148/
+### 4
+Get API keys from Pico Voice, Groq and Elevenlabs. Load keys when running the program.
+### 5 Run fishBot.py
