@@ -34,4 +34,6 @@ Connect motor to transistor. If body motor is still working, use a dual H-bridge
 ### 4
 Connect external speaker to RPi through aux or alternatively use speaker from toy by soldering it to aux adapter.
 
-#Raspberry Pi Setup
+# Raspberry Pi Setup
+1. Get Raspberry Pi OS. https://www.raspberrypi.com/software/
+2. 
