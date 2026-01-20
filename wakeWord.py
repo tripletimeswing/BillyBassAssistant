@@ -10,7 +10,7 @@ def wakeWord():
         #create wake word instant
         porcupine = pvporcupine.create(
             access_key=porcupineKey,
-            #keywords=['picovoice', 'bumblebee'] or train your own keyword_paths on pico voice and name it wakeWordPath.ppn
+            #keywords=['picovoice', 'bumblebee'] or train your own keyword_paths on pico voice and name the file wakeWordPath.ppn
             keyword_paths = ["wakeWordPath.ppn"]
         )
 
@@ -48,3 +48,4 @@ def wakeWord():
             print("\nclosed audiostream")
 
     return(detected)
+
